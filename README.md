@@ -31,6 +31,7 @@ le SEO technique, le référencement local et l'accessibilité du site existant.
 ## 🔗 Liens
 
 - **Repo GitHub** : https://github.com/Thierry-webdeveloper/Site-NinaCarducci.git
+- **Site en ligne** : https://thierry-webdeveloper.github.io/Site-NinaCarducci/
 - **Site original** : https://github.com/ninacarducci/ninacarducci.github.io.git
 
 ---
