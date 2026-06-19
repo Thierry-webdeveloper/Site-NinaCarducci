@@ -1,16 +1,87 @@
 <!doctype html>
 <html lang="fr">
   <head>
+    <!-- Métadonnées pour SEO-->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="./assets/images/favicon.png" />
-    <!-- Description pour SEO -->
     <title>Nina Carducci — Photographe portraits & événements à Bordeaux</title>
     <meta
       name="description"
       content="Photographe professionnelle à Bordeaux, Nina Carducci capture vos portraits, mariages et événements avec sensibilité. Contactez-la pour votre prochain projet."
     />
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="./assets/images/favicon.png" />
+
+    <!-- Métadonnées pour Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://thierry-webdeveloper.github.io/Site-NinaCarducci/"
+    />
+    <meta
+      property="og:title"
+      content="Nina Carducci — Photographe portraits & événements à Bordeaux"
+    />
+    <meta
+      property="og:description"
+      content="Photographe professionnelle à Bordeaux, Nina Carducci capture vos portraits, mariages et événements avec sensibilité. Contactez-la pour votre prochain projet."
+    />
+    <meta
+      property="og:image"
+      content="https://thierry-webdeveloper.github.io/Site-NinaCarducci/assets/images/nina.webp"
+    />
+    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:site_name" content="Nina Carducci Photographe" />
+
+    <!-- Métadonnées pour Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Nina Carducci — Photographe portraits & événements à Bordeaux"
+    />
+    <meta
+      name="twitter:description"
+      content="Photographe professionnelle à Bordeaux, Nina Carducci capture vos portraits, mariages et événements avec sensibilité. Contactez-la pour votre prochain projet."
+    />
+    <meta
+      name="twitter:image"
+      content="https://thierry-webdeveloper.github.io/Site-NinaCarducci/assets/images/nina.webp"
+    />
+
+    <!-- Schema.org JSON-LD — Référencement local -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Nina Carducci Photographe",
+        "image": "https://thierry-webdeveloper.github.io/Site-NinaCarducci/assets/images/nina.webp",
+        "url": "https://thierry-webdeveloper.github.io/Site-NinaCarducci/",
+        "telephone": "+33556677889",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "68 avenue Alsace-Lorraine",
+          "addressLocality": "Bordeaux",
+          "postalCode": "33200",
+          "addressCountry": "FR"
+        },
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday"
+            ],
+            "opens": "10:00",
+            "closes": "19:00"
+          }
+        ],
+        "sameAs": ["https://www.instagram.com/ninacarducci.photo/?hl=fr"]
+      }
+    </script>
+
     <!-- Minification dossier bootstrap -->
     <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css" />
     <script src="./assets/bootstrap/bootstrap.bundle.min.js" defer></script>
@@ -233,8 +304,8 @@
               <h3>Shooting photo</h3>
               <p>
                 Pour capturer vos moments les plus précieux et garder un
-                souvenir impérissable. Je me déplace en Île-de-France pour
-                réaliser vos photos
+                souvenir impérissable. Je me déplace dans la région de Bordeaux
+                pour réaliser vos photos
               </p>
             </div>
             <div class="service__price">
