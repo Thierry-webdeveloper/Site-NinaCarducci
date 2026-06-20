@@ -22,6 +22,12 @@ body {
 	font-size: 26px;
 }
 
+/* Préserve le rendu initial du site */
+a.name {
+    text-decoration: none;
+    color: inherit;
+}
+
 .nav ul {
 	display: flex;
 	list-style-type: none;
