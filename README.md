@@ -1,4 +1,4 @@
-![Appareil photo argentique](./assets/images/camera.jpg)
+<img src="assets/images/nina-readme.jpg" width="300" alt="Nina Carducci, photographe à Bordeaux">
 
 # Site Nina Carducci — Optimisation SEO
 
