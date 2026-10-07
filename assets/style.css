@@ -6,6 +6,12 @@ body {
 	font-family: 'Inter';
 	font-style: normal;
 }
+
+/* Garde les proportions des images qui ont des attributs width et height */
+img {
+	height: auto;
+}
+
 .top-header {
 	background-color: white;
 	position: sticky;
